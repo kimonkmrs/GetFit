@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Meal_Plan_Basketball">
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="60dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:layout_width="25sp"
+                android:layout_height="25sp"
+
+                android:src="@drawable/numberone"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10sp"
+                android:layout_marginEnd="10sp"
+                android:layout_marginBottom="10sp"
+                android:text="Breakfast (before morning practice):Option One: large bowl of oatmeal, omelet made with one whole egg and two egg whites, scrambled with salsa, and a glass of orange juice.
+Try Option Two if you do not have much time: toasted whole-wheat bagel with peanut butter, a piece of fruit, and low-fat yogurt."
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:background="@drawable/et_layout2"
+                tools:ignore="HardcodedText,TextViewEdits,VisualLintLongText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:layout_width="25sp"
+                android:layout_height="25sp"
+
+                android:src="@drawable/numbertwo"
+                tools:ignore="ContentDescription" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10sp"
+                    android:layout_marginEnd="10sp"
+                    android:layout_marginBottom="10sp"
+                    android:text="Post-Practice Snack
+One cup of trail mix or half a cup of almonds mixed with half a cup of dried fruit. "
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:background="@drawable/et_layout"
+                    tools:ignore="HardcodedText,TextViewEdits,VisualLintLongText" />
+
+                <TextView
+                    android:id="@+id/link"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10sp"
+                    android:layout_marginEnd="10sp"
+                    android:layout_marginBottom="10sp"
+                    android:text="Click here to see the recipe!"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+
+                    android:background="@drawable/et_layout"
+                    tools:ignore="HardcodedText,TextViewEdits,VisualLintLongText" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:layout_width="25sp"
+                android:layout_height="25sp"
+
+                android:src="@drawable/numberthree"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10sp"
+                android:layout_marginEnd="10sp"
+                android:layout_marginBottom="10sp"
+                android:text="Pre-Game Lunch (four hours prior to tip-off)
+Foot-long sub sandwich on honey wheat with chicken breast, provolone or Swiss cheese, veggies and Italian dressing. Furthermore sliced apples and a large glass of water."
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:background="@drawable/et_layout3"
+                tools:ignore="HardcodedText,TextViewEdits,VisualLintLongText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:layout_width="25sp"
+                android:layout_height="25sp"
+
+                android:src="@drawable/numberfour"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10sp"
+                android:layout_marginEnd="10sp"
+                android:layout_marginBottom="10sp"
+                android:text="Pre-Game Snack (20 to 30 minutes prior to tip-off)
+Peanut butter and jelly sandwich on whole wheat bread + Energy drink. "
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:background="@color/purple_500"
+                tools:ignore="HardcodedText,TextViewEdits,VisualLintLongText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:layout_width="25sp"
+                android:layout_height="25sp"
+
+                android:src="@drawable/numberfive"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10sp"
+                android:layout_marginEnd="10sp"
+                android:layout_marginBottom="10sp"
+                android:text="During the Game
+Stay hydrated. Sip a sports drinks and water during time-outs and breaks in play. "
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:background="@color/purple_200"
+                tools:ignore="HardcodedText,TextViewEdits,VisualLintLongText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:layout_width="25sp"
+                android:layout_height="25sp"
+
+                android:src="@drawable/numbersix"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10sp"
+                android:layout_marginEnd="10sp"
+                android:layout_marginBottom="10sp"
+                android:text="Post-Game Snack (to kick-start recovery)
+Within thirty minutes after game, swig some low-fat chocolate milk and eat a banana. "
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:background="@color/my_color"
+                tools:ignore="HardcodedText,TextViewEdits,VisualLintLongText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:layout_width="25sp"
+                android:layout_height="25sp"
+
+                android:src="@drawable/numbersix"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10sp"
+                android:layout_marginEnd="10sp"
+                android:layout_marginBottom="10sp"
+                android:text="Dinner (within one hour of game)
+Whole-wheat spaghetti with marinara sauce and a lean protein source like turkey, chicken or lean ground meat plus a glass of water."
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:background="@color/another_color"
+                tools:ignore="HardcodedText,TextViewEdits,VisualLintLongText" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

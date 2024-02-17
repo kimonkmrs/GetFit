@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Volley_training">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60sp"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Train Properly"
+            android:textColor="@color/black"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/et_layout"
+            android:gravity="center"
+            android:text="Ever wonder what it takes to be successful volleyball player? It takes a lot of hard work and determination. The training can get intense and if done incorrectly, could ruin your chances of ever making a career out of the sport."
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="normal"
+            tools:ignore="Autofill,HardcodedText,LabelFor,TextFields,VisualLintTextFieldSize,VisualLintLongText" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="center"
+            android:text="To play a successful game, a volleyball player needs endurance.
+Muscle hypertrophy is not a huge factor in the game as compared to overall speed and agility."
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText,TextSizeCheck" />
+
+
+        <androidx.appcompat.widget.Toolbar
+
+            android:id="@+id/toolbar_workout_off_season_volley"
+            android:layout_width="280dp"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_marginStart="5sp"
+            android:layout_marginEnd="5sp"
+            android:layout_marginTop="50sp"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@color/green"
+            android:background="?attr/colorPrimary"
+            android:elevation="4dp"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="@dimen/design_default_inset"
+
+                android:text="Off-season workout plan"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,TextSizeCheck" />
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+        <androidx.appcompat.widget.Toolbar
+
+            android:id="@+id/toolbar_workout_pre_season_volley"
+            android:layout_width="280dp"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_marginStart="5sp"
+            android:layout_marginEnd="5sp"
+            android:layout_marginTop="50sp"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@color/my_color"
+            android:background="?attr/colorPrimary"
+            android:elevation="4dp"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="@dimen/design_default_inset"
+
+                android:text="Pre-season workout plan"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,TextSizeCheck" />
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+        <androidx.appcompat.widget.Toolbar
+
+            android:id="@+id/toolbar_workout_in_season_volley"
+            android:layout_width="280dp"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_marginStart="5sp"
+            android:layout_marginEnd="5sp"
+            android:layout_marginTop="50sp"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@color/yellow"
+            android:background="?attr/colorPrimary"
+            android:elevation="4dp"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="@dimen/design_default_inset"
+
+                android:text="In-season workout plan"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,TextSizeCheck" />
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgr"
+    tools:context=".SplashScreen">
+
+    <ImageView
+        android:id="@+id/sport_icon"
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:background="@drawable/fitness"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="100sp"
+        android:layout_marginEnd="400sp"
+        android:layout_marginBottom="300sp"
+        android:layout_centerVertical="true"
+        tools:ignore="ContentDescription" />
+
+
+
+
+
+    <TextView
+        android:id="@+id/appname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Fit"
+        android:textSize="45sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="100sp"
+        android:layout_marginEnd="100sp"
+        android:layout_marginBottom="200sp"
+        tools:ignore="HardcodedText" />
+
+
+</RelativeLayout>
+

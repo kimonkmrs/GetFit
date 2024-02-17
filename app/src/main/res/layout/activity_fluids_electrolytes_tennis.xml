@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fluids_electrolytes_tennis">
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="57dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fluids and Electrolytes"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:gravity="center"
+            android:text="It has been well established that fluid and electrolyte balance are important factors for optimal exercise performance , particularly in sports such as tennis where players often compete in hot and humid environments. The majority of studies that have investigated fluid and electrolytes on performance have investigated continuous endurance sports and team sports rather than stop-and-start type sports such as tennis therefore those guidelines might not be appropriate for tennis players . As tennis matches consist of multipleand frequent interruptions that disrupt match-play, the nature of tennis clearly allows opportunities to take on fluids and electrolytes."
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:background="@drawable/et_layout"
+            tools:ignore="Autofill,HardcodedText,LabelFor,TextFields,VisualLintTextFieldSize,VisualLintLongText" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/baseline_warning_24"
+                tools:ignore="ContentDescription" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fluid ingestion might be easier to control during training then during competition as typical match duration is variable. Nevertheless,tennis matches have multiple breaks in play and players should ensure they use these opportunities to consume electrolyte beverages. In a review on hydration and competitive tennis, Kovacs (2008) recommended that players should aim for 200 mL every change-over in mild to moderate temperatures but in temperatures greater than 27°C players should aim for ≥ 400 mL."
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText,VisualLintLongText" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/baseline_warning_24"
+                tools:ignore="ContentDescription" />
+            <TextView
+                android:layout_width="330dp"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_vertical"
+                android:text="SIGNS OF DEHYDRATION"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/baseline_warning_24"
+                tools:ignore="ContentDescription" />
+
+
+
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:text="If you’re not sure whether you’re hydrating properly, watch for these signs of mild to moderate dehydration:dry mouth and tongue,thirst,lethargy,dry skin,muscle weakness,dizziness and
+dark urine.If you’re experiencing any of these symptoms and consuming adequate fluids, it may be time to incorporate an electrolyte beverage into your routine.
+If these symptoms worsen, consult your healthcare provider."
+            android:textSize="15sp"
+            android:background="@drawable/et_layout"
+            tools:ignore="Autofill,HardcodedText,LabelFor,TextFields,VisualLintLongText,VisualLintTextFieldSize" />
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

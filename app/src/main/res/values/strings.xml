@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Get Fit</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="day1_tab_text">Day 1</string>
+    <string name="day2_tab_text">Day 2</string>
+    <string name="day3_tab_text">Day 3</string>
+    <string name="day4_tab_text">Day 4</string>
+    <string name="day5_tab_text">Day 5</string>
+
+    <string-array name="options_array">
+        <item>Football</item>
+        <item>Basketball</item>
+        <item>Track and Field</item>
+        <item>Boxing</item>
+        <item>Tennis</item>
+        <item>Volleyball</item>
+    </string-array>
+
+    <string-array name="football_options_array">
+        <item>In-season</item>
+        <item>Pre-season</item>
+        <item>Off-season</item>
+
+    </string-array>
+    <string-array name="basketball_options_array">
+        <item>In-season</item>
+        <item>Pre-season</item>
+        <item>Off-season</item>
+
+    </string-array>
+    <string-array name="box_options_array">
+        <item>General training phase</item>
+        <item>Strength and Speed building phase</item>
+        <item>Competition phase</item>
+
+    </string-array>
+
+    <string-array name="volley_options_array">
+        <item>>In-season</item>
+        <item>Pre-season</item>
+        <item>Off-season</item>
+
+    </string-array>
+
+    <string-array name="tennis_options_array">
+        <item>>In-season</item>
+        <item>Early pre-season</item>
+        <item>Late pre-season</item>
+
+    </string-array>
+
+    <string-array name="track_and_field_options_array">
+        <item>>Strength and conditioning</item>
+
+
+    </string-array>
+
+
+</resources>

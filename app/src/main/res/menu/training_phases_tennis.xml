@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/In_season"
+        android:title="In season training"
+        tools:ignore="HardcodedText" />
+
+    <item
+        android:id="@+id/Early_pre_season"
+        android:title="Early pre season training"
+        tools:ignore="HardcodedText" />
+
+    <item
+        android:id="@+id/Late_pre_season"
+        android:title="Late pre season training"
+        tools:ignore="HardcodedText" />
+
+
+
+</menu>

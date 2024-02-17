@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Football_nutrition">
+
+
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60sp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Eat Properly"
+            android:textColor="@color/black"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="144dp"
+            android:background="@drawable/et_layout"
+            android:gravity="center"
+            android:text="Proper nutrition is crucial in football as well because it can significantly impact your effectiveness on the field. You should eat properly not only to maximize your training gains but also to avoid premature fatigue during the match.
+A 2017 study provides daily nutrition recommendations for soccer players. Have a look at them to find out how much you should consume daily, before training, during training, and in other situations."
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="normal"
+            tools:ignore="Autofill,HardcodedText,LabelFor,TextFields,VisualLintTextFieldSize,VisualLintLongText" />
+
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="265sp"
+        android:text="Macronutritients and micronutritients are essential elements that help your body function properly"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300sp"
+        android:orientation="vertical"
+        >
+
+        <androidx.appcompat.widget.Toolbar
+
+            android:id="@+id/toolbar_macro_football"
+            android:layout_width="280dp"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_marginStart="5sp"
+            android:layout_marginEnd="5sp"
+            android:layout_marginTop="30sp"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@color/teal_700"
+            android:background="?attr/colorPrimary"
+            android:elevation="4dp"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+           >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40sp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="@dimen/design_default_inset"
+                android:layout_marginStart="10sp"
+                android:text="Macronutritient List"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,TextSizeCheck" />
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <androidx.appcompat.widget.Toolbar
+
+            android:id="@+id/toolbar_micro_football"
+            android:layout_width="280dp"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_marginStart="5sp"
+            android:layout_marginEnd="5sp"
+            android:layout_marginTop="50sp"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@color/purple_200"
+            android:background="?attr/colorPrimary"
+            android:elevation="4dp"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40sp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="@dimen/design_default_inset"
+                android:layout_marginStart="10sp"
+                android:text="Micronutritients"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,TextSizeCheck" />
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+        <androidx.appcompat.widget.Toolbar
+
+            android:id="@+id/toolbar_electrolytes_football"
+            android:layout_width="280dp"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_marginStart="5sp"
+            android:layout_marginEnd="5sp"
+            android:layout_marginTop="50sp"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@color/my_color"
+            android:background="?attr/colorPrimary"
+            android:elevation="4dp"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40sp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="@dimen/design_default_inset"
+                android:layout_marginStart="10sp"
+                android:text="Fluid and Electrolytes"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,TextSizeCheck" />
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Endurance"
+        android:title="Endurance"
+        tools:ignore="HardcodedText" />
+
+    <item
+        android:id="@+id/Sprinters_Jumpers"
+        android:title="Sprinters,Jumpers"
+        tools:ignore="HardcodedText" />
+
+    <item
+        android:id="@+id/Throwers"
+        android:title="Throwers"
+        tools:ignore="HardcodedText" />
+
+</menu>

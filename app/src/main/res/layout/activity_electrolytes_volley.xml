@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Electrolytes_volley">
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="57dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fluids and Electrolytes"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:gravity="center"
+            android:text="You may be familiar with the term electrolytes from volleyball sports drinks such as Gatorade and Powerade.
+
+Most sports drinks have a combination electrolytes (particularly sodium and potassium) used to regulate the body to prevent dehydration and enhance sports performance.
+
+A disturbance in electrolyte balance will affect athletic performance, especially in hot and humid environments so it is wise to consume electrolytes during long volleyball tournaments or intense training sessions."
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:background="@drawable/et_layout"
+            tools:ignore="Autofill,HardcodedText,LabelFor,TextFields,VisualLintTextFieldSize,VisualLintLongText" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/baseline_warning_24"
+                tools:ignore="ContentDescription" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Keep yourself well-hydrated all day long and incorporate some sports drinks with your water to help maintain your energy level and keep your muscles from cramping.If you feel you need a boost during the game, this might be a good time to eat a protein or nutrition bar. Most of these bars are formulated to give you energy right away, whereas real food at this point will take longer to convert to energy. Make sure the energy bar you choose has a good ratio of carbohydrates to protein. A good choice has a ratio of at least 4:1 (carbs to protein).
+
+If eating during a match makes you queasy or doesn't sit well, you can restore your energy with the proper hydration. Drink a sports drink during the game in addition to water."
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText,VisualLintLongText" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/baseline_warning_24"
+                tools:ignore="ContentDescription" />
+            <TextView
+                android:layout_width="330dp"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_vertical"
+                android:text="SIGNS OF DEHYDRATION"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/baseline_warning_24"
+                tools:ignore="ContentDescription" />
+
+
+
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:text="If you’re not sure whether you’re hydrating properly, watch for these signs of mild to moderate dehydration:dry mouth and tongue,thirst,lethargy,dry skin,muscle weakness,dizziness and
+dark urine.If you’re experiencing any of these symptoms and consuming adequate fluids, it may be time to incorporate an electrolyte beverage into your routine.
+If these symptoms worsen, consult your healthcare provider."
+            android:textSize="15sp"
+            android:background="@drawable/et_layout"
+            tools:ignore="Autofill,HardcodedText,LabelFor,TextFields,VisualLintLongText,VisualLintTextFieldSize" />
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

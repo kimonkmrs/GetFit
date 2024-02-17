@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mono_fat"
+    tools:context=".Monounsaturated_fat_basketball">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60sp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What is monounsaturated fat?"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:background="#30ffffff"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/et_layout2"
+            android:gravity="center"
+            android:text="Monounsaturated fats are generally associated with being beneficial for health.They may have a positive effect on cholesterol levels. "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="italic"
+
+            tools:ignore="Autofill,HardcodedText,LabelFor,TextFields,VisualLintTextFieldSize,VisualLintLongText,TextSizeCheck" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Food sources of monounsaturated fat include:"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:background="#30ffff"
+            tools:ignore="HardcodedText" />
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+
+                android:layout_width="25sp"
+                android:layout_height="25sp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/numberone"
+                tools:ignore="ContentDescription" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10sp"
+                android:layout_marginEnd="10sp"
+                android:layout_marginBottom="10sp"
+                android:background="@color/purple_700"
+                android:text="Avocados"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                tools:ignore="HardcodedText,TextViewEdits,VisualLintLongText,TouchTargetSizeCheck" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+
+                android:layout_width="25sp"
+                android:layout_height="25sp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/numbertwo"
+                tools:ignore="ContentDescription" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10sp"
+                android:layout_marginEnd="10sp"
+                android:layout_marginBottom="10sp"
+                android:text="Fats from nuts( almonds,cashews,macadamias,pistachios,peanuts)"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:background="@color/purple_700"
+                tools:ignore="HardcodedText,TextViewEdits,VisualLintLongText" />
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+
+                android:layout_width="25sp"
+                android:layout_height="25sp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/numberthree"
+                tools:ignore="ContentDescription" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10sp"
+                android:layout_marginEnd="10sp"
+                android:layout_marginBottom="10sp"
+                android:gravity="center_vertical"
+                android:text="Olive oil"
+                android:background="@color/purple_700"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                tools:ignore="HardcodedText,TextViewEdits,VisualLintLongText" />
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

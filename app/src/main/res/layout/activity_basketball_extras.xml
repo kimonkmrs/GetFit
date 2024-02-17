@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Basketball_extras">
+
+    <Toolbar
+        android:id="@+id/toolbar_basketball_nutrition"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/purple_700"
+        android:title="Get Fit"
+        android:textAlignment="textStart"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        tools:ignore="HardcodedText" />
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:gravity="center"
+        android:onClick="basketball_menu"
+        android:text="Basketball Menu"
+        android:textColor="@color/black"
+        android:textSize="@dimen/design_default_inset"
+        tools:ignore="HardcodedText,UsingOnClickInXml,VisualLintOverlap,TouchTargetSizeCheck,TextSizeCheck,TextContrastCheck" />
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60sp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+    </LinearLayout>
+
+</RelativeLayout>

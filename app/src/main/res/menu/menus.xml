@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_item_layout1"
+        android:title="Main menu"/>
+    <item
+        android:id="@+id/menu_item_layout2"
+        android:title="Sports menu"/>
+    <item
+        android:id="@+id/menu_item_layout3"
+        android:title="Log out"/>
+
+
+</menu>

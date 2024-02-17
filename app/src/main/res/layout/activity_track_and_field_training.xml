@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TrackAndField_training">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60sp"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Train Properly"
+            android:textColor="@color/black"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/et_layout"
+            android:gravity="center"
+            android:text="Strength training for track and field can be a critical tool to enhance performance. Track and field encompasses a wide variety of movement skills. Regardless of the event you compete in, there are several fundamental principles for strength training in relation to track and field."
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="normal"
+            tools:ignore="Autofill,HardcodedText,LabelFor,TextFields,VisualLintTextFieldSize,VisualLintLongText" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="center"
+            android:text="Below is a week’s worth of sample workouts for a track and field athlete, which address all of the above points."
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText,TextSizeCheck" />
+
+
+        <androidx.appcompat.widget.Toolbar
+
+            android:id="@+id/toolbar_workout_football"
+            android:layout_width="280dp"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_marginStart="5sp"
+            android:layout_marginEnd="5sp"
+            android:layout_marginTop="50sp"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@color/green"
+            android:background="?attr/colorPrimary"
+            android:elevation="4dp"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40sp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="@dimen/design_default_inset"
+                android:layout_marginStart="10sp"
+                android:text="Workout phases"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,TextSizeCheck" />
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

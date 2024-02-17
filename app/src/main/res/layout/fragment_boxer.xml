@@ -1,0 +1,57 @@
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Here are some general BMI guidelines for boxers based on their weight classes:
+
+Lightweight and Featherweight Boxers (126-135 lbs):
+
+Boxers in these weight classes often have BMIs in the range of 20 to 24. These boxers require speed, agility, and endurance.
+Welterweight and Middleweight Boxers (147-160 lbs):
+
+Boxers in these weight classes may have BMIs ranging from 21 to 25. They require a balance of speed and power.
+Light Heavyweight and Heavyweight Boxers (175+ lbs):
+
+Boxers in these weight classes can have a wider range of BMIs, typically between 22 and 28. Heavyweight boxers may have higher BMIs due to greater muscle mass and body weight, as they compete in the heaviest weight category.
+It's important to remember that the primary focus for boxers is not their BMI but rather their overall conditioning, strength, endurance, and technical skills in the ring. "
+                android:textSize="15sp"
+                android:textColor="@color/black" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="If your BMI is under the limits then you should probably increase your calories consumption following the strategies we describe in our Nutrition card, in the Football menu! Else if your BMI is over the limit ,you should gradually decrease the calorie consumption!"
+                android:textSize="15sp"
+                android:textColor="@color/black" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+
+
+</LinearLayout>
+

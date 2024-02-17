@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Carbo_boxing">
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60sp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Carbohydrate"
+            android:textColor="@color/black"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Carbs are essential for maintaining sufficient energy levels. The correct carbohydrates gradually release energy over the course of the day, replenish depleted glycogenic levels and increase stamina for workouts and competition. Carbs have a negative connotation in the fitness and diet world, but they are essential for a number of things including processing protein. here is a strong distinction between good carbs and bad carbs, which is based heavily on their effect on blood sugar levels. Carbs that are complex are low on the glycemic index because they have little immediate effect on glucose and insulin levels. They take longer to absorb, which is by they provide long-lasting energy. Complex carbohydrates can also reduce cravings, help in weight loss or maintenance and reduce the chance of diabetes and heart problems. "
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="normal"
+            tools:ignore="Autofill,HardcodedText,LabelFor,TextFields,VisualLintTextFieldSize,VisualLintLongText" />
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400sp"
+        android:orientation="horizontal"
+        tools:ignore="UseCompoundDrawables">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:rowCount="1"
+            android:columnCount="2"
+            tools:ignore="UselessParent">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/NutritionBoxingCarboSources"
+                style="@style/Widget.Neumorph.CardView"
+
+                android:layout_width="160sp"
+                android:layout_height="160sp"
+                android:layout_marginStart="30dp"
+                android:layout_marginHorizontal="10sp"
+                android:layout_marginTop="10sp"
+                tools:ignore="TextSizeCheck">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    tools:ignore="UseCompoundDrawables">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="85sp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/carbs"
+                        tools:ignore="ContentDescription,ImageContrastCheck">
+
+
+                    </ImageView>
+
+
+                    <TextView
+                        android:id="@+id/NutritionCarbsBoxing"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:gravity="center"
+                        android:text="Food Source"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+
+                        tools:ignore="HardcodedText,VisualLintBounds,TextContrastCheck" />
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/DietaryPlanBoxing"
+                style="@style/Widget.Neumorph.CardView"
+                android:layout_width="160sp"
+                android:layout_height="160sp"
+                android:layout_marginHorizontal="10sp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10sp"
+                tools:ignore="TextSizeCheck">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    tools:ignore="UseCompoundDrawables">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="85sp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/trainhard"
+                        tools:ignore="ContentDescription">
+
+
+                    </ImageView>
+
+
+                    <TextView
+                        android:id="@+id/IntakeStrategies"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:gravity="center"
+                        android:text="Intake Strategies"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+
+                        tools:ignore="HardcodedText,VisualLintBounds,TextContrastCheck" />
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+        </GridLayout>
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

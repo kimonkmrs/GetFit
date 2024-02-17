@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/poly_fat"
+    tools:context=".Saturated_fat_football">
+
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60sp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What is polyunsaturated fat?"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:background="#30ffffff"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/et_layout2"
+            android:alpha="0.8"
+            android:gravity="center"
+            android:text="Polyunsaturated fats are considered the most healthy fats for your body. These include omega 3 fish oil and omega 6 vegetable oils.
+
+Omega 3 oils are known to have an anti-inflammatory response in the body and may benefit cardiovascular disease.
+
+Omega 6 oils can be great for the skin and also help with hormone balance. "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="italic"
+
+            tools:ignore="Autofill,HardcodedText,LabelFor,TextFields,VisualLintTextFieldSize,VisualLintLongText,TextSizeCheck" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Food sources of polyunsaturated fat include:"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:background="#30ffffff"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="1)Oily fish"
+            android:alpha="0.7"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:background="#30ffffff"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="2)Flax seeds"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:alpha="0.7"
+            android:textStyle="bold"
+            android:background="#30ffffff"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="3)Chia Seeds"
+            android:background="#30ffffff"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:alpha="0.7"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:text="4)Sacha Inchi oil ( a South American plant high in omega 3)"
+            android:background="#30ffffff"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:alpha="0.7"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="5)Walnuts"
+            android:background="#30ffffff"
+            android:alpha="0.7"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

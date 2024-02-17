@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menuplans_basketball">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="57dp"
+
+        android:background="@drawable/meal_planif">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/menu2"
+            android:alpha="0.6"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="5dp"
+            android:textColor="@color/black"
+            android:background="@drawable/et_layout2"
+            android:alpha="0.9"
+            android:text="Post game nutrition is vital for effective recovery, particularly when players have less than 24 hours between games or training sessions.
+To recover optimally after a game or training an athlete should attempt to consume a meal or drink containing easily digestible carbohydrates and protein.After training the muscles are “hungry” for amino acids and glucose.
+By having this drink during this window the body is most effective at using the protein and carbs to trigger muscle protein synthesis and glycogen restoration.
+For this post workout meal the recommended carbohydrate intake is 1.0–1.2 g of carbohydrate/kg body weight and about 20-30 g protein.Basketball players should also be sure to consume a nutritionally balanced meal containing fats, carbs and protein around 2 -3hrs after their post game meal/shake."
+            tools:ignore="Autofill,HardcodedText,LabelFor,TextFields,VisualLintLongText,TextContrastCheck,VisualLintTextFieldSize" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/plan"
+            android:layout_marginTop="45dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_height="wrap_content"
+            android:alpha="0.7"
+            android:textStyle="bold"
+            android:text="Click here to get a nutrition plan for a day with morning training and an evening game."
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:gravity="center"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

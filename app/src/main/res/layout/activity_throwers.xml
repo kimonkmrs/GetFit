@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Throwers">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="57dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="For Throwers"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="@color/black"/>
+
+        <LinearLayout
+            android:id="@+id/one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+
+            tools:ignore="UseCompoundDrawables,TextSizeCheck">
+
+            <ImageView
+                android:layout_width="25sp"
+                android:layout_height="25sp"
+                android:src="@drawable/numberone"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/et_layout"
+                android:text="Pre-workout meal: 3 glasses of chocolate milk, beans and/or lean meats on whole grain bread, fruits and nuts"
+                android:textColor="@color/black"
+                tools:ignore="HardcodedText,VisualLintLongText" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables,TextSizeCheck">
+
+            <ImageView
+                android:layout_width="25sp"
+                android:layout_height="25sp"
+                android:src="@drawable/numbertwo"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/et_layout"
+                android:text="Pre-workout snack: 2 glasses of milk or protein shake, granola bar or fruit"
+                android:textColor="@color/black"
+                tools:ignore="HardcodedText,VisualLintLongText" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables,TextSizeCheck">
+
+            <ImageView
+                android:layout_width="25sp"
+                android:layout_height="25sp"
+                android:src="@drawable/numberthree"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/et_layout"
+                android:text="During practice or competition: 2 glasses of water per 20 minutes of activity, 2 glasses of sports drink with electrolytes per hour"
+                android:textColor="@color/black"
+                tools:ignore="HardcodedText,VisualLintLongText" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/four"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables,TextSizeCheck">
+
+            <ImageView
+                android:layout_width="25sp"
+                android:layout_height="25sp"
+                android:src="@drawable/numberfour"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/et_layout"
+                android:text="Post-workout snack: Fruit, yogurt and granola bar, pretzels or bagel with peanut butter or a meal replacement bar with protein and carbohydrates"
+                android:textColor="@color/black"
+                tools:ignore="HardcodedText,VisualLintLongText" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/five"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables,TextSizeCheck">
+
+            <ImageView
+                android:layout_width="25sp"
+                android:layout_height="25sp"
+                android:src="@drawable/numberfive"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/et_layout"
+                android:text="Post-workout meal: Lean meat or grilled fish, vegetables and whole grain pasta, rice or bread"
+                android:textColor="@color/black"
+                tools:ignore="HardcodedText,VisualLintLongText" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/six"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables,TextSizeCheck">
+
+            <ImageView
+                android:layout_width="25sp"
+                android:layout_height="25sp"
+                android:src="@drawable/numbersix"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/et_layout"
+                android:text="Evening snack: Fruit, cheese slices or chocolate milk"
+                android:textColor="@color/black"
+                tools:ignore="HardcodedText,VisualLintLongText" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables,TextSizeCheck">
+
+            <ImageView
+                android:layout_width="25sp"
+                android:layout_height="25sp"
+                android:src="@drawable/tip"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/green"
+                android:text="Throwers Nutrition Tip: Achieve weight gain by eating more breads, fruits and nuts and full-fat dairy products."
+                android:textColor="@color/black"
+                tools:ignore="HardcodedText,VisualLintLongText" />
+
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Protein_Intake_Strategies_football">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="59dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            >
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:background="@drawable/tip"
+                android:layout_marginEnd="5dp"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/et_layout"
+                android:text="The timing of the consumption of protein can affect the ability of the athlete to adapt to a training stimulus."
+                android:textColor="#546E7A"
+                android:textSize="20sp"
+                tools:ignore="Autofill,HardcodedText,LabelFor,TextFields,TextSizeCheck"
+                 />
+
+        </LinearLayout>
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+             <TextView
+                 android:layout_width="350dp"
+                 android:layout_height="wrap_content"
+                 android:layout_marginStart="5dp"
+                 android:layout_marginTop="5dp"
+                 android:background="@drawable/et_layout2"
+                 android:text="Resistance training adaptations may be more effective if a small amount of protein (6 to 10g for example 200g of yoghurt or 30g of lean meat) is ingested within 15 minutes before the training session. "
+                 android:textColor="@color/white"
+                 android:textSize="20sp"
+                 tools:ignore="Autofill,HardcodedText,LabelFor,TextFields,TextSizeCheck" />
+             <ImageView
+                 android:layout_width="40dp"
+                 android:layout_height="30dp"
+                 android:background="@drawable/tip"
+                 android:layout_marginStart="5dp"
+                 android:layout_marginTop="20dp"
+                 tools:ignore="ContentDescription" />
+         </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:background="@drawable/tip"
+                android:layout_marginEnd="5dp"
+                android:contentDescription="TODO"
+                tools:ignore="ContentDescription,HardcodedText" />
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/et_layout3"
+                android:text="Protein is also required after training and match. According to research the window of opportunity is wider for protein recovery than for glycogen depletion. Ingestion of approximately 20 g protein during and/or immediately after exercise is sufficient to maximize post-exercise muscle protein synthesis rates. On the other hand additional ingestion of large amounts of carbohydrate does not further increase post-exercise muscle protein synthesis rates when ample protein is already ingested. "
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="Autofill,HardcodedText,LabelFor,TextFields,TextSizeCheck" />
+
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

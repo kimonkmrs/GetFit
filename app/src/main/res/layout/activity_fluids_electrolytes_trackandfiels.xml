@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fluids_electrolytes_trackandfiels">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="57dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fluids and Electrolytes"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:gravity="center"
+            android:text="Humans are the only mammal whose sense of thirst is not synchronized properly with their need
+for water. Dogs for example, will be as thirsty as is their need for water. So dogs will drink as
+much as they need. However, in humans, it doesn't work that way. This is one of the 'design
+            flaws of the human body' that we have to survive with. In humans, if we drink only when we are
+thirsty – we will not get enough water! We need to drink much more than to just quench our
+thirst - or we will not be fully hydrated (we will be dehydrated)! Remember, if you wait until
+you are thirsty to drink water - it is too late "
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:background="@drawable/et_layout"
+            tools:ignore="Autofill,HardcodedText,LabelFor,TextFields,VisualLintTextFieldSize,VisualLintLongText" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/baseline_warning_24"
+                tools:ignore="ContentDescription" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="You need to start “pre-hydrating” 2-3 days before the race or practice. You need to super-hydrate 2 hours before - and again at 10-20 minutes before - the
+            race or practice. You need to see that you minimize dehydration as best as you can during the race or practice. You need to re-hydrate yourself as fast as you can starting immediately after the race
+or practice, and for the next 2 days. "
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:gravity="center"
+                tools:ignore="HardcodedText,VisualLintLongText" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/baseline_warning_24"
+                tools:ignore="ContentDescription" />
+            <TextView
+                android:layout_width="330dp"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_vertical"
+                android:text="SIGNS OF DEHYDRATION"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/baseline_warning_24"
+                tools:ignore="ContentDescription" />
+
+
+
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:text="If you’re not sure whether you’re hydrating properly, watch for these signs of mild to moderate dehydration:dry mouth and tongue,thirst,lethargy,dry skin,muscle weakness,dizziness and
+dark urine.If you’re experiencing any of these symptoms and consuming adequate fluids, it may be time to incorporate an electrolyte beverage into your routine.
+If these symptoms worsen, consult your healthcare provider."
+            android:textSize="15sp"
+            android:background="@drawable/et_layout"
+            tools:ignore="Autofill,HardcodedText,LabelFor,TextFields,VisualLintLongText,VisualLintTextFieldSize" />
+
+
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

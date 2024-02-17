@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menuplans_boxing">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="57dp"
+        android:background="@drawable/meal_planif">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/menu2"
+            android:alpha="0.5"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Pre fight foods!"
+            android:textColor="@color/white"
+            android:background="@color/black"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            style="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="When starting a boxing diet plan for beginners, it is critical to consume adequate energy-producing carbohydrates such as whole grains, legumes, fruits, and vegetables. It is especially important to consume these foods in the days leading up to a fight so that your body creates a storage of energy that will later be used to fuel your exercise."
+            android:textColor="@color/white"
+            android:background="@color/black"
+            android:textSize="15sp"
+            android:alpha="0.7"
+            android:gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            style="bold"
+            />
+
+        <TextView
+            android:id="@+id/click1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Click here for pre fight snacks!"
+            android:textColor="@color/white"
+            android:background="@color/black"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            style="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Post fight foods!"
+            android:textColor="@color/black"
+            android:background="@color/yellow"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            style="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Whether you have a post-workout snack or a full meal, just ensure that you consume both protein and carbohydrates, along with plenty of water and fluids to replenish electrolytes lost in sweat."
+            android:textColor="@color/black"
+            android:background="@color/yellow"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:alpha="0.7"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            style="bold"
+            />
+
+        <TextView
+            android:id="@+id/click2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Click here for post fight snacks!"
+            android:textColor="@color/black"
+            android:background="@color/yellow"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            style="bold"
+            />
+
+
+        <TextView
+            android:id="@+id/click3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Click here for a full boxing diet plan for a boxer who is training twice a day. Boxing session in the morning and a strength or conditioning session in the afternoon."
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:alpha="0.8"
+            android:background="@color/green"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            style="bold"
+            />
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>

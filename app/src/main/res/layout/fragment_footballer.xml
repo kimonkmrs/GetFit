@@ -1,0 +1,55 @@
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male Soccer Players:
+
+Goalkeepers: Goalkeepers need a good combination of agility, height, and reflexes. Their ideal BMI may range from 21 to 25.
+
+Defenders: Defenders require strength, endurance, and agility. Their BMI may fall in the range of 21 to 24.
+
+Midfielders: Midfielders need to cover a lot of ground, requiring a BMI in the range of 20 to 23.
+
+Forwards: Forwards should be fast and agile, with an ideal BMI between 20 and 23.
+Female soccer players may have similar position-specific BMI ranges to their male counterparts, but it's essential to consider the differences in body composition between men and women. Generally, female athletes have a higher percentage of body fat than males."
+                android:textSize="15sp"
+                android:textColor="@color/black" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="If your BMI is under the limits then you should probably increase your calories consumption following the strategies we describe in our Nutrition card, in the Football menu! Else if your BMI is over the limit ,you should gradually decrease the calorie consumption!"
+                android:textSize="15sp"
+                android:textColor="@color/black" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+
+
+</LinearLayout>
+

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="@drawable/balls"
+    tools:context=".Calendar_schedule">
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="60dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose your favorite sport:"
+            android:textSize="25sp"
+            android:textColor="@color/black"/>
+
+        <Spinner
+            android:id="@+id/options_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:alpha="0.6"
+            android:background="@color/white"
+            android:entries="@array/options_array"
+            tools:ignore="TouchTargetSizeCheck" />
+
+
+
+        <TextView
+            android:id="@+id/result_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Choose the current training phase you are in:"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+           />
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/football_toolbar"
+
+                android:visibility="gone"
+                android:entries="@array/football_options_array"
+                android:layout_width="280dp"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_marginStart="5sp"
+                android:layout_marginEnd="5sp"
+
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="@color/teal_700"
+                android:background="?attr/colorPrimary"
+                android:elevation="4dp"
+                android:theme="@style/ThemeOverlay.AppCompat.ActionBar">
+
+                <TextView
+                    android:id="@+id/toolbar_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Football"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp" />
+            </androidx.appcompat.widget.Toolbar>
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/basketball_toolbar"
+
+                android:visibility="gone"
+                android:entries="@array/basketball_options_array"
+                android:layout_width="280dp"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_marginStart="5sp"
+                android:layout_marginEnd="5sp"
+
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="@color/teal_700"
+                android:background="?attr/colorPrimary"
+                android:elevation="4dp"
+                android:theme="@style/ThemeOverlay.AppCompat.ActionBar" >
+
+                <TextView
+                    android:id="@+id/toolbar_title2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Basketball"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp" />
+            </androidx.appcompat.widget.Toolbar>
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/volleyball_toolbar"
+
+                android:visibility="gone"
+                android:entries="@array/volley_options_array"
+                android:layout_width="280dp"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_marginStart="5sp"
+                android:layout_marginEnd="5sp"
+
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="@color/teal_700"
+                android:background="?attr/colorPrimary"
+                android:elevation="4dp"
+                android:theme="@style/ThemeOverlay.AppCompat.ActionBar">
+
+                <TextView
+                    android:id="@+id/toolbar_title3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Volleyball"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp" />
+            </androidx.appcompat.widget.Toolbar>
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/box_toolbar"
+
+                android:visibility="gone"
+                android:entries="@array/box_options_array"
+                android:layout_width="280dp"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_marginStart="5sp"
+                android:layout_marginEnd="5sp"
+
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="@color/teal_700"
+                android:background="?attr/colorPrimary"
+                android:elevation="4dp"
+                android:theme="@style/ThemeOverlay.AppCompat.ActionBar" >
+                <TextView
+                    android:id="@+id/toolbar_title4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Boxing"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp" />
+            </androidx.appcompat.widget.Toolbar>
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/tennis_toolbar"
+
+                android:visibility="gone"
+                android:entries="@array/tennis_options_array"
+
+                android:layout_width="280dp"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_marginStart="5sp"
+                android:layout_marginEnd="5sp"
+
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="@color/teal_700"
+                android:background="?attr/colorPrimary"
+                android:elevation="4dp"
+                android:theme="@style/ThemeOverlay.AppCompat.ActionBar">
+                <TextView
+                    android:id="@+id/toolbar_title5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tennis"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp" />
+            </androidx.appcompat.widget.Toolbar>
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/trackandfield_toolbar"
+
+                android:visibility="gone"
+                android:entries="@array/track_and_field_options_array"
+
+                android:layout_width="280dp"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_marginStart="5sp"
+                android:layout_marginEnd="5sp"
+
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="@color/teal_700"
+                android:background="?attr/colorPrimary"
+                android:elevation="4dp"
+                android:theme="@style/ThemeOverlay.AppCompat.ActionBar">
+
+                <TextView
+                    android:id="@+id/toolbar_title6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Track and Field"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp" />
+            </androidx.appcompat.widget.Toolbar>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,63 @@
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sprinters (100m, 200m, 400m):
+
+Sprinters require a combination of speed and power. An ideal BMI for sprinters typically falls within the range of 20 to 24 for both men and women. Lean muscle mass and explosiveness are essential.
+Middle-Distance Runners (800m, 1500m):
+
+Middle-distance runners need a balance of speed, endurance, and power. Their ideal BMI may range from 20 to 23 for men and women.
+Long-Distance Runners (3000m, 5000m, 10000m, Marathon):
+
+Long-distance runners require a high level of endurance. Their BMI might be in the range of 19 to 22 for men and women, although it can vary based on the distance they specialize in.
+Hurdles and Jumpers (110m/100m hurdles, long jump, triple jump):
+
+Athletes in these events need a combination of speed, power, and agility. Their ideal BMI can range from 21 to 25 for both men and women.
+Throwers (shot put, discus, hammer, javelin):
+
+Throwers require strength and power. Their BMI might be on the higher side, ranging from 24 to 30 for both men and women. Muscle mass is essential in these events.
+Pole Vault and High Jump:
+
+Athletes in these events need a combination of speed, power, and technique. Their ideal BMI can be in the range of 21 to 25 for both men and women."
+                android:textSize="15sp"
+                android:textColor="@color/black" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="If your BMI is under the limits then you should probably increase your calories consumption following the strategies we describe in our Nutrition card, in the Track and Field menu! Else if your BMI is over the limit ,you should gradually decrease the calorie consumption!"
+                android:textSize="15sp"
+                android:textColor="@color/black" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+
+
+</LinearLayout>
+

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fluid_Electolytes_boxing">
+
+
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="57dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fluids and Electrolytes"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:gravity="center"
+            android:text="Many weight-conscious athletes cannot adequately compensate for sweat loss after training, because this is evident when they gain weight. Affect reaction time and cognitive skills. It can also increase the effects of concussions or head injuries, especially in boxing.
+Providing athletes with adequate fluids during daily exercise is essential to improve performance and health. Athletes should drink liquids in all meals, snacks and beverages during exercise.
+."
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:background="@drawable/et_layout"
+            tools:ignore="Autofill,HardcodedText,LabelFor,TextFields,VisualLintTextFieldSize,VisualLintLongText" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/baseline_warning_24"
+                tools:ignore="ContentDescription" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Athletes are often nervous or have difficulty eating before the game. Choose light, digestible foods (such as meals, exercise bars) that are low in fat, fibre, or fluids, simple snacks, dry biscuits, etc.) near the game may be a suitable strategy to charge your battery and minimize intestinal discomfort.
+
+If the boxer needs to gain weight again after the next day of the match, they should check your weight to see if you are overweight. If they need to lose weight, they will need to adjust the total volume/weight of food and fluids consumed during the rest of the day."
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText,VisualLintLongText" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/baseline_warning_24"
+                tools:ignore="ContentDescription" />
+            <TextView
+                android:layout_width="330dp"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_vertical"
+                android:text="SIGNS OF DEHYDRATION"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/baseline_warning_24"
+                tools:ignore="ContentDescription" />
+
+
+
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:text="If you’re not sure whether you’re hydrating properly, watch for these signs of mild to moderate dehydration:dry mouth and tongue,thirst,lethargy,dry skin,muscle weakness,dizziness and
+dark urine.If you’re experiencing any of these symptoms and consuming adequate fluids, it may be time to incorporate an electrolyte beverage into your routine.
+If these symptoms worsen, consult your healthcare provider."
+            android:textSize="15sp"
+            android:background="@drawable/et_layout"
+            tools:ignore="Autofill,HardcodedText,LabelFor,TextFields,VisualLintLongText,VisualLintTextFieldSize" />
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

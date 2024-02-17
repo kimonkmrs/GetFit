@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tennis_nutrition">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60sp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Eat Properly"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/et_layout"
+            android:gravity="center"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:text="As one might suspect, Roger Federer’s training routine plays a huge role in his ongoing success, as do his eating habits. That said, the tennis star’s diet is considerably less disciplined than the diets of other celebrities and athletes. On the other hand, no type of calorie or carbohydrate in the world can withstand the brutal demands of an exhaustive tennis match."
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="normal"
+            tools:ignore="Autofill,HardcodedText,LabelFor,TextFields,VisualLintTextFieldSize,VisualLintLongText" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="The diet of a tennis player should be varied and balanced in food and nutrients, making a minimum of 5 meals a day. And adapted to the energy expenditure of the player. In order for players to perform at their best on court they need to have an adequate supply of all macronutrients (protein, carbohydrates, fats) as well as vitamins and minerals.
+
+To learn more about how you can fuel your body with healthy foods that will help give you enough energy throughout the game while also achieving an optimal weight, read below."
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textStyle="normal"
+                tools:ignore="HardcodedText,VisualLintLongText" />
+
+
+        <androidx.appcompat.widget.Toolbar
+
+            android:id="@+id/toolbar_macro_tennis"
+            android:layout_width="280dp"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_marginStart="5sp"
+            android:layout_marginEnd="5sp"
+            android:layout_marginTop="10sp"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@color/teal_700"
+            android:background="?attr/colorPrimary"
+            android:elevation="4dp"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40sp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="@dimen/design_default_inset"
+                android:layout_marginStart="10sp"
+                android:text="Macronutritient List"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,TextSizeCheck" />
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <androidx.appcompat.widget.Toolbar
+
+            android:id="@+id/toolbar_micro_tennis"
+            android:layout_width="280dp"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_marginStart="5sp"
+            android:layout_marginEnd="5sp"
+            android:layout_marginTop="50sp"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@color/purple_200"
+            android:background="?attr/colorPrimary"
+            android:elevation="4dp"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginVertical="@dimen/design_default_inset"
+                android:layout_marginStart="10sp"
+                android:text="Micronutritients"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,TextSizeCheck" />
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+        <androidx.appcompat.widget.Toolbar
+
+            android:id="@+id/toolbar_electrolytes_tennis"
+            android:layout_width="280dp"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_marginStart="5sp"
+            android:layout_marginEnd="5sp"
+            android:layout_marginTop="50sp"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@color/my_color"
+            android:background="?attr/colorPrimary"
+            android:elevation="4dp"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40sp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="@dimen/design_default_inset"
+                android:layout_marginStart="10sp"
+                android:text="Fluid and Electrolytes"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,TextSizeCheck" />
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Personal_stats">
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/toolbar">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Here you are going to save your current stats with the option to change them in the future"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="@color/black"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/weight_circuit"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/weight"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:id="@+id/weight_monitor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/baseline_monitor_weight_24"
+                    tools:ignore="ContentDescription" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="What is your current weight (kg)?"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+
+                    tools:ignore="HardcodedText" />
+
+                    <EditText
+                        android:id="@+id/weight_monitor_kg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:background="@drawable/background_box"
+                        android:hint="Type weight"
+                        android:inputType="numberDecimal"
+                        tools:ignore="HardcodedText,TouchTargetSizeCheck"
+                        android:autofillHints="" />
+
+
+
+
+
+
+            </LinearLayout>
+
+           <!-- <Button
+                android:id="@+id/save_weight"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="@color/purple_700"
+                android:text="save"
+                tools:ignore="TouchTargetSizeCheck" />-->
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/height_circuit"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/height"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:id="@+id/height_monitor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/baseline_height_24"
+                    tools:ignore="ContentDescription" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="What is your current height (cm)?"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+
+                    tools:ignore="HardcodedText" />
+
+
+                    <EditText
+                        android:id="@+id/height_cm"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:background="@drawable/background_box"
+                        android:hint="Type height"
+                        android:inputType="numberDecimal"
+                        tools:ignore="HardcodedText,TouchTargetSizeCheck"
+                        android:autofillHints="" />
+
+
+
+
+
+
+
+
+            </LinearLayout>
+
+            <!--<Button
+                android:id="@+id/save_height"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="@color/purple_700"
+                android:text="save"
+                tools:ignore="TouchTargetSizeCheck" />-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/age_circuit"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/age"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:id="@+id/age_monitor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/baseline_date_range_24"
+                    tools:ignore="ContentDescription" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="What is your current age (years)?"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+
+                    tools:ignore="HardcodedText" />
+
+
+                    <EditText
+                        android:id="@+id/age_years"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:background="@drawable/background_box"
+                        android:hint="Type age"
+                        android:inputType="numberDecimal"
+                        tools:ignore="HardcodedText,TouchTargetSizeCheck"
+                        android:autofillHints="" />
+
+
+
+
+
+
+
+            </LinearLayout>
+
+            <!--<Button
+                android:id="@+id/save_age"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="@color/purple_700"
+                android:text="save"
+                tools:ignore="TouchTargetSizeCheck" />-->
+        </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/register_radiogroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radio_female"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:text="Female"
+                android:textSize="20sp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <RadioButton
+                android:id="@+id/radio_male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:text="Male"
+                android:textSize="20sp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+        </RadioGroup>
+
+        <!--<Button
+            android:id="@+id/save_gender"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:background="@color/purple_700"
+            android:text="save"
+            tools:ignore="TouchTargetSizeCheck" />-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="According to your stats, your BMI is:"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/BMI"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:background="@drawable/background_box"
+                android:hint="BMI"
+                android:inputType="numberDecimal"
+                tools:ignore="HardcodedText,TouchTargetSizeCheck"
+                android:autofillHints="" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/save_bmi"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:background="@color/purple_700"
+            android:text="save"
+            tools:ignore="TouchTargetSizeCheck" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Below you can check whether your BMI is within the norms of your favorite sport!"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            />
+
+
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabGravity="fill"
+            app:tabIndicatorHeight="3dp"
+            app:tabMode="fixed"
+            tools:ignore="SpeakableTextPresentCheck">
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Football" />
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Basketball" />
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Track and field" />
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Box" />
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Volleyball" />
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tennis" />
+
+        </com.google.android.material.tabs.TabLayout>
+
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BMI values for male basketball players can vary depending on their position and playing style. Typically, their BMI may fall within the 22 to 26 range. However, some may have higher BMIs due to significant muscle mass. Female basketball players often have BMIs in the 20 to 24 range, but like male players, the BMI can vary based on individual factors such as position, body composition, and training."
+                android:textSize="15sp"
+                android:textColor="@color/black" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="If your BMI is under this limit then you should probably increase your calories consumption following the strategies we describe in our Nutrition card, in the Basketball menu! Else if your BMI is over the limit ,you should gradually decrease the calorie consumption!"
+                android:textSize="15sp"
+                android:textColor="@color/black" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+

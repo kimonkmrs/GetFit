@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/General_training"
+        android:title="General Preparation"
+        tools:ignore="HardcodedText" />
+
+    <item
+        android:id="@+id/Strength_power_training"
+        android:title="Strength and power training"
+        tools:ignore="HardcodedText" />
+
+    <item
+        android:id="@+id/Competition"
+        android:title="Competition phase"
+        tools:ignore="HardcodedText" />
+
+
+
+</menu>

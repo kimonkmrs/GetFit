@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fluid_Electolytes">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="57dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fluids and Electrolytes"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:gravity="center"
+            android:text="Fluid and electrolyte balance are crucial factors for optimal exercise performance (including football). In studies measuring fluid balance, findings suggest that players do not ingest fluid to match their sweat rates. These results indicate that players should not only try to rehydrate immediately after training but also start the training session hydrated!"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:background="@drawable/et_layout"
+            tools:ignore="Autofill,HardcodedText,LabelFor,TextFields,VisualLintTextFieldSize,VisualLintLongText" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/baseline_warning_24"
+                tools:ignore="ContentDescription" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sports drinks and other types of electrolyte beverages are frequently marketed to the general public, but they’re probably not necessary for most people.
+
+In fact, regular intake of some high-calorie, high-sugar electrolyte drinks could make it more difficult for you to reach your health goals, especially if they’re not being used for their intended purpose.
+
+Most healthy, moderately active people can stay hydrated and obtain adequate amounts of electrolytes by eating a balanced, nutrient-dense diet and drinking plenty of water."
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText,VisualLintLongText" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/baseline_warning_24"
+                tools:ignore="ContentDescription" />
+            <TextView
+                android:layout_width="330dp"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_vertical"
+                android:text="SIGNS OF DEHYDRATION"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/baseline_warning_24"
+                tools:ignore="ContentDescription" />
+
+
+
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:text="If you’re not sure whether you’re hydrating properly, watch for these signs of mild to moderate dehydration:
+dry mouth and tongue,
+thirst,
+lethargy,
+dry skin,
+muscle weakness,
+dizziness and
+dark urine
+If you’re experiencing any of these symptoms and consuming adequate fluids, it may be time to incorporate an electrolyte beverage into your routine.
+
+If these symptoms worsen, consult your healthcare provider."
+            android:textSize="15sp"
+            android:background="@drawable/et_layout"
+            tools:ignore="Autofill,HardcodedText,LabelFor,TextFields,VisualLintLongText,VisualLintTextFieldSize" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tips for Staying Hydrated:"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The most obvious way to stay hydrated is to drink plenty of water. Especially when exercising.
+
+Futhermore it is really important to eat Hydrating Foods such as watermelon, cucumber, and oranges, are high in water content and can help athletes stay hydrated."
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

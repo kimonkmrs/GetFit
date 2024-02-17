@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Off_season"
+        android:title="General training program"
+        tools:ignore="HardcodedText" />
+
+    <item
+        android:id="@+id/Pre_season"
+        android:title="Strength and speed program"
+        tools:ignore="HardcodedText" />
+
+    <item
+        android:id="@+id/In_season"
+        android:title="Competition preparation program"
+        tools:ignore="HardcodedText" />
+
+
+
+
+</menu>

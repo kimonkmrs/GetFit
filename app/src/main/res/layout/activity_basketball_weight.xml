@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Basketball_weight"
+    tools:ignore="ExtraText">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="57sp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How to gain weight healthy"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Being tall and slender,most basketball players are struggling to add muscular weight to help them in the physical aspects of the game. The ideal calorie surplus in order to gain weight is dependent on each person. Based on your stats we will be able to find out how your ideal calorie surplus. "
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="normal"
+            android:gravity="center"
+            tools:ignore="HardcodedText,VisualLintLongText" />
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal"
+            android:layout_marginTop="190dp"
+            android:id="@+id/thoughts"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Type height in cm, weight in kg and age in order to calculate your BMR:"
+                android:textColor="@color/black"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/metrics"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/thoughts">
+
+
+        <TextView
+            android:id="@+id/scan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Height: "
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText" />
+
+
+        <EditText
+            android:id="@+id/height_cm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_box"
+            android:clickable="true"
+            android:focusable="true"
+            android:hint="Height (cm)"
+            android:inputType="numberDecimal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.023"
+            app:layout_constraintStart_toEndOf="@id/scan"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="Autofill,HardcodedText,TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+        <TextView
+            android:id="@+id/scan2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="140dp"
+            android:text="Weight: "
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.094"
+            app:layout_constraintStart_toEndOf="@+id/height_cm"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.437"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/weight_monitor_kg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:autofillHints=""
+            android:background="@drawable/background_box"
+            android:clickable="true"
+            android:enabled="true"
+            android:focusable="true"
+            android:hint="Weight kg"
+            android:inputType="numberDecimal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/scan2"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText,TouchTargetSizeCheck,VisualLintOverlap" />
+
+        <TextView
+            android:id="@+id/scan3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="50dp"
+            android:text="Age: "
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.194"
+            app:layout_constraintStart_toEndOf="@id/weight_monitor_kg"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.437"
+            tools:ignore="HardcodedText" />
+
+
+        <EditText
+            android:id="@+id/age_years"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_box"
+            android:clickable="true"
+            android:focusable="true"
+            android:hint="Age"
+            android:inputType="numberDecimal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.200"
+            app:layout_constraintStart_toEndOf="@id/scan3"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="Autofill,HardcodedText,TouchTargetSizeCheck" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="285dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Next we must find out your TDEE (Total Daily Energy Expenditure). To achieve that you must choose one of the values below that describes your daily activity the most!"
+                android:textColor="@color/black"
+                tools:ignore="HardcodedText,VisualLintLongText" />
+
+            <Button
+                android:id="@+id/Sedentary"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Sedentary (little to no exercise + work a desk)"
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                tools:ignore="HardcodedText,SmallSp,TouchTargetSizeCheck,TextSizeCheck,VisualLintButtonSize" />
+
+            <Button
+                android:id="@+id/Lightly_active"
+                android:layout_width="350dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Lightly active (light exercise 1-3 days/week) "
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                tools:ignore="HardcodedText,SmallSp,TouchTargetSizeCheck,VisualLintButtonSize" />
+
+            <Button
+                android:id="@+id/Moderately_active"
+                android:layout_width="350dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Moderately active (moderate exercise 3-5 days/week)"
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                tools:ignore="HardcodedText,SmallSp,TouchTargetSizeCheck,TextSizeCheck,VisualLintButtonSize" />
+
+            <Button
+                android:id="@+id/Very_active"
+                android:layout_width="350dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Very active (heavy exercise 6-7 days/week)"
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                tools:ignore="HardcodedText,SmallSp,TouchTargetSizeCheck,VisualLintButtonSize" />
+
+            <Button
+                android:id="@+id/Extremely_active"
+                android:layout_width="350dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Extremely active (strenuous training 1-2x/day + labour intensive job)"
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                tools:ignore="HardcodedText,SmallSp,TouchTargetSizeCheck,TextSizeCheck,VisualLintButtonSize" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="According to your stats, in order to gain weight gradually, your daily calories intake should be:"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText" />
+
+
+
+                <EditText
+                    android:id="@+id/calories_surpl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:hint="Calories"
+                    tools:ignore="Autofill,HardcodedText,TextFields,TouchTargetSizeCheck" />
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+</RelativeLayout>

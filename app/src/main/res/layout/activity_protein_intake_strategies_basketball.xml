@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Protein_Intake_Strategies_basketball">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="59dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            tools:ignore="UseCompoundDrawables">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:background="@drawable/tip"
+                android:layout_marginEnd="5dp"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/et_layout"
+                android:text="The main role of protein is muscle growth and repair as well as the function of the immune system."
+                android:textColor="#546E7A"
+                android:textSize="20sp"
+                tools:ignore="Autofill,HardcodedText,LabelFor,TextFields,TextSizeCheck"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            tools:ignore="UseCompoundDrawables">
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/et_layout2"
+                android:text="To fuel your basketball game, you should focus on 2 key nutrients for your pre-game meals and snacks- carbohydrates and protein, as well as some other vitamins and minerals, and of course water.
+"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="Autofill,HardcodedText,LabelFor,TextFields,TextSizeCheck" />
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:background="@drawable/tip"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="20dp"
+                tools:ignore="ContentDescription" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:background="@drawable/tip"
+                android:layout_marginEnd="5dp"
+                android:contentDescription="TODO"
+                tools:ignore="ContentDescription,HardcodedText" />
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/et_layout3"
+                android:text="While protein only contributes a small amount of energy during your game, you need protein because it helps repair your muscle tissue. You need a moderate amount of protein in a pre-game meal, save your high-protein shakes and bars for after the game.
+
+Choose lean proteins like chicken breast, ground turkey, tuna fish, or peanut butter, a protein bar, dairy products like Greek yogurt, etc.Consume around 15-30 grams of protein at each meal and snack during the day.  "
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="Autofill,HardcodedText,LabelFor,TextFields,TextSizeCheck" />
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

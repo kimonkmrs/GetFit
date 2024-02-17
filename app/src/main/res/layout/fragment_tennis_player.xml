@@ -1,0 +1,56 @@
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male Tennis Players:
+
+Singles Players: Male singles players often require a balance of speed, power, and endurance. An ideal BMI may fall within the range of 21 to 25.
+
+Doubles Players: Doubles players may benefit from a slightly higher BMI, especially if they play at the net. Their BMI might be in the range of 22 to 26.
+
+Female Tennis Players:
+
+Singles Players: Female singles players also need a combination of speed, power, and endurance, with an ideal BMI range of approximately 20 to 24.
+
+Doubles Players: Doubles players, similar to their male counterparts, might have an ideal BMI in the range of 21 to 25."
+                android:textSize="15sp"
+                android:textColor="@color/black" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="If your BMI is under the limits then you should probably increase your calories consumption following the strategies we describe in our Nutrition card, in the Tennis menu! Else if your BMI is over the limit ,you should gradually decrease the calorie consumption!"
+                android:textSize="15sp"
+                android:textColor="@color/black" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+
+
+</LinearLayout>
+

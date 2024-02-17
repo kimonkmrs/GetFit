@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menuplans_trackandfield">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="57dp"
+        android:background="@drawable/meal_planif">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/menu2"
+            tools:ignore="ContentDescription"
+            android:alpha="0.7"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="5dp"
+            android:alpha="0.8"
+            android:textColor="@color/black"
+            android:background="@drawable/et_layout2"
+            android:text="The following menu plans have been created to provide practitioners, practical examples on how to achieve appropriate macronutritient requirements for training and competition."
+            tools:ignore="Autofill,HardcodedText,LabelFor,TextFields,VisualLintLongText,TextContrastCheck,VisualLintTextFieldSize" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:alpha="0.7"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:text="Basic Nutritional Guidelines for Track and Field Athletes"
+            android:textStyle="bold"
+            tools:ignore="Autofill,HardcodedText,LabelFor,TextFields,VisualLintLongText,TextContrastCheck,VisualLintTextFieldSize" />
+
+        <LinearLayout
+            android:id="@+id/one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:alpha="0.8"
+            tools:ignore="UseCompoundDrawables,TextSizeCheck">
+
+            <ImageView
+                android:layout_width="25sp"
+                android:layout_height="25sp"
+                android:src="@drawable/numberone"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/et_layout"
+                android:text="Eat small meals every two to three hours "
+                android:textColor="@color/black"
+                tools:ignore="HardcodedText,VisualLintLongText" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:alpha="0.8"
+            tools:ignore="UseCompoundDrawables,TextSizeCheck">
+
+            <ImageView
+                android:layout_width="25sp"
+                android:layout_height="25sp"
+                android:src="@drawable/numbertwo"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/et_layout"
+                android:text="Meals should include protein and complex carbohydrates"
+                android:textColor="@color/black"
+                tools:ignore="HardcodedText,VisualLintLongText" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:alpha="0.8"
+            tools:ignore="UseCompoundDrawables,TextSizeCheck">
+
+            <ImageView
+                android:layout_width="25sp"
+                android:layout_height="25sp"
+                android:src="@drawable/numberthree"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/et_layout"
+                android:text="Stay hydrated with at least 2 glasses of water per hour, depending on climate conditions (you may need more if it’s hot out)"
+                android:textColor="@color/black"
+                tools:ignore="HardcodedText,VisualLintLongText" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/four"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:alpha="0.8"
+            tools:ignore="UseCompoundDrawables,TextSizeCheck">
+
+            <ImageView
+                android:layout_width="25sp"
+                android:layout_height="25sp"
+                android:src="@drawable/numberfour"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/et_layout"
+                android:text="Eat post-workout meal within 30 minutes "
+                android:textColor="@color/black"
+                tools:ignore="HardcodedText,VisualLintLongText" />
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:text="Guidelines"
+            android:textStyle="bold"
+
+            tools:ignore="Autofill,HardcodedText,LabelFor,TextFields,VisualLintLongText,TextContrastCheck,VisualLintTextFieldSize" />
+
+        <LinearLayout
+            android:id="@+id/one1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:alpha="0.8"
+            tools:ignore="UseCompoundDrawables,TextSizeCheck">
+
+            <ImageView
+                android:layout_width="25sp"
+                android:layout_height="25sp"
+                android:src="@drawable/numberone"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/et_layout"
+                android:text="Pre-workout meal = three hours before practice or competition "
+                android:textColor="@color/black"
+                tools:ignore="HardcodedText,VisualLintLongText" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/two1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0.8"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables,TextSizeCheck">
+
+            <ImageView
+                android:layout_width="25sp"
+                android:layout_height="25sp"
+                android:src="@drawable/numbertwo"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/et_layout"
+                android:text="Pre-workout snack = one hour before practice or competition"
+                android:textColor="@color/black"
+                tools:ignore="HardcodedText,VisualLintLongText" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/three1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:alpha="0.8"
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables,TextSizeCheck">
+
+            <ImageView
+                android:layout_width="25sp"
+                android:layout_height="25sp"
+                android:src="@drawable/numberthree"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/et_layout"
+                android:text="Post-workout snack = within 30 minutes after practice or competition"
+                android:textColor="@color/black"
+                tools:ignore="HardcodedText,VisualLintLongText" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/four1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:alpha="0.8"
+            tools:ignore="UseCompoundDrawables,TextSizeCheck">
+
+            <ImageView
+                android:layout_width="25sp"
+                android:layout_height="25sp"
+                android:src="@drawable/numberfour"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/et_layout"
+                android:text="Post-workout meal = six hours following practice or competition"
+                android:textColor="@color/black"
+                tools:ignore="HardcodedText,VisualLintLongText" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/five"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:alpha="0.8"
+            tools:ignore="UseCompoundDrawables,TextSizeCheck">
+
+            <ImageView
+                android:layout_width="25sp"
+                android:layout_height="25sp"
+                android:src="@drawable/numberfive"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/et_layout"
+                android:text="Evening snack = Two to three hours after last meal"
+                android:textColor="@color/black"
+                tools:ignore="HardcodedText,VisualLintLongText" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <androidx.appcompat.widget.Toolbar
+
+                android:id="@+id/toolbar_track"
+                android:layout_width="280dp"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_marginStart="5sp"
+                android:alpha="0.8"
+                android:layout_marginEnd="5sp"
+                android:layout_marginTop="0sp"
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="@color/yellow"
+                android:background="?attr/colorPrimary"
+                android:elevation="4dp"
+                android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40sp"
+                    android:layout_gravity="center"
+                    android:layout_marginVertical="@dimen/design_default_inset"
+                    android:layout_marginStart="10sp"
+                    android:text="Track and Field Meals"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,TextSizeCheck" />
+
+
+            </androidx.appcompat.widget.Toolbar>
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
